@@ -1,0 +1,34 @@
+.submitBtn{
+    margin-left: 1rem;
+    border-radius: 10px;
+    background-color: #B4C7E7;
+    padding: 0.1rem 1rem;
+    border: 1px solid grey;
+    transition: transform .3s;
+}
+
+.submitBtn:hover{
+    border-color: black;
+    background-color: #CAB4E7;
+}
+.submitBtn:active {
+    color: white;
+
+    background-color: grey;
+}
+.emailField{
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    width: 10rem;
+    color: grey;    
+    font-size: 0.9rem;
+    border-radius: 5px;
+    padding-left: 0.35rem;  
+    border: 1px solid #cccccc; 
+    
+}
+.emailField:focus{
+    box-shadow: 0 0 7px rgba(81, 203, 238, 1); 
+}
