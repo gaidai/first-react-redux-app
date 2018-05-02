@@ -16,17 +16,17 @@ const history = createHistory();
 const store = createStore(reducer, composeWithDevTools(applyMiddleware(thunk)));
 
 ReactDOM.render(
-    <Provider store={store}>
-        <ConnectedRouter  history={history}>  
-            <div>
-                <Route exact path="/" component={App} />   
-                <Route path="/dropdown" component={Dropdown} />  
-            </div>
-                  
-        </ConnectedRouter >
-    </Provider>   
-    , 
-    document.getElementById('root'));
+	<Provider store={store}>
+		<ConnectedRouter  history={history}>  
+			<div>
+				<Route exact path="/" component={App} />   
+				<Route path="/dropdown" component={Dropdown} />  
+			</div>
+				  
+		</ConnectedRouter >
+	</Provider>   
+	, 
+	document.getElementById('root'));
 
 
 
@@ -62,7 +62,7 @@ ReactDOM.render(
 //          <Route exact path="/" component={App} />   
 //          <Route path="/dropdown" component={Dropdown} />  
 //      </div>
-          
+		  
 //  </HashRouter>, 
 //  document.getElementById('root'));
 
