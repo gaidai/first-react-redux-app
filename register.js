@@ -1,3 +1,3 @@
-function register (login, password){
-   return 'Account was registered '+ password + ' ' + login;
+function registration (login, password) {
+    return 'Registered ' + login + ' - ' + password; 
 }
